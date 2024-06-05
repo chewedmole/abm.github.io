@@ -1,0 +1,74 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css"/>
+	<script type = "text/javascript" src = "scripts/script.js"></script>
+	​<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+	<script type = "text/javascript" src = "scripts/data.js"></script>
+	
+	</head>
+	
+<body>
+<h1>Съесть самый Codemичный бургер</h1>
+<aside>
+		<img src = "images/burger.png">
+	</aside>
+	<content>
+	
+	<div id = "menu">
+	<img src = "images/like.png">
+	
+	</div>
+	<div id = "h1"></div>
+	<div id = "img"></div>
+	
+	
+	<form id = "form">
+	
+	<div>
+	<h3>Основа:</h3>
+		<input id = "small" name = "size" type = "radio" value = "110"/>
+		<label for = "small">Маленький(110 рублей)</label>
+		
+		<input id = "medium" name = "size" type = "radio" value = "170"/>
+		<label for = "medium">Средний(170 рублей)</label>
+		
+		<input id = "huge" name = "size" type = "radio" value = "250"/>
+		<label for = "huge">Большой(250 рублей)</label>
+		
+	</div>
+	
+	
+	
+	<div>
+	<h3>Ингредиенты</h3>
+	<input id = "check1" name = "check" type = "checkbox" value = "12"/>
+		<label for = "check1">Огурцы(12 рублей)</label>
+	<input id = "check2" name = "check" type = "checkbox" value = "24"/>
+		<label for = "check2">Помидоры(24 рубля)</label>
+	<input id = "check3" name = "check" type = "checkbox" value = "15"/>
+		<label for = "check3">Горчица(15 рублей)</label>
+	<input id = "check4" name = "check" type = "checkbox" value = "10"/>
+		<label for = "check4">Кетчуп(10 рублей)</label>
+	<input id = "check5" name = "check" type = "checkbox" value = "90"/>
+		<label for = "result">+Котлета(90 рублей)</label>
+	</div>
+	
+	
+	<div>
+	<h3>Ваш голод обойдётся вам в:</h3>
+	<p><span id = "price">0</span>рублей</p>
+	</div>
+	
+	
+	
+	
+	 
+	<div>
+	<button onclick = "sum()" type = "button">Посчитать</button>
+	</div>
+	
+	</form>
+	</content>
+</body>
+</html>
