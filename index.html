@@ -1,74 +1,90 @@
-<html>
-	<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/style.css"/>
-	<script type = "text/javascript" src = "scripts/script.js"></script>
-	​<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-	<script type = "text/javascript" src = "scripts/data.js"></script>
-	
-	</head>
-	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool.Stuff.Forever</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer type="text/javascript" src="js/script.js"></script>
+</head>
 <body>
-<h1>Съесть самый Codemичный бургер</h1>
-<aside>
-		<img src = "images/burger.png">
-	</aside>
-	<content>
-	
-	<div id = "menu">
-	<img src = "images/like.png">
-	
-	</div>
-	<div id = "h1"></div>
-	<div id = "img"></div>
-	
-	
-	<form id = "form">
-	
-	<div>
-	<h3>Основа:</h3>
-		<input id = "small" name = "size" type = "radio" value = "110"/>
-		<label for = "small">Маленький(110 рублей)</label>
-		
-		<input id = "medium" name = "size" type = "radio" value = "170"/>
-		<label for = "medium">Средний(170 рублей)</label>
-		
-		<input id = "huge" name = "size" type = "radio" value = "250"/>
-		<label for = "huge">Большой(250 рублей)</label>
-		
-	</div>
-	
-	
-	
-	<div>
-	<h3>Ингредиенты</h3>
-	<input id = "check1" name = "check" type = "checkbox" value = "12"/>
-		<label for = "check1">Огурцы(12 рублей)</label>
-	<input id = "check2" name = "check" type = "checkbox" value = "24"/>
-		<label for = "check2">Помидоры(24 рубля)</label>
-	<input id = "check3" name = "check" type = "checkbox" value = "15"/>
-		<label for = "check3">Горчица(15 рублей)</label>
-	<input id = "check4" name = "check" type = "checkbox" value = "10"/>
-		<label for = "check4">Кетчуп(10 рублей)</label>
-	<input id = "check5" name = "check" type = "checkbox" value = "90"/>
-		<label for = "result">+Котлета(90 рублей)</label>
-	</div>
-	
-	
-	<div>
-	<h3>Ваш голод обойдётся вам в:</h3>
-	<p><span id = "price">0</span>рублей</p>
-	</div>
-	
-	
-	
-	
-	 
-	<div>
-	<button onclick = "sum()" type = "button">Посчитать</button>
-	</div>
-	
-	</form>
-	</content>
+    <header>
+        <div class="nav">
+            <img id="csf_logo" src="img/csf_logo.svg" alt="" srcset="">
+        </div>
+    </header>
+
+    <div class="content">
+        <section class="hidden">
+            <div id="text1" class="text t2">
+                <p>
+                    Cool.Stuff.Forever is a company made to make this world a better place by developing little things
+                </p>
+            </div>
+            <img id="decor1" src="img/decor_1section.svg" alt="" srcset="">
+        </section>
+
+        <section class="hidden">
+            <div id="text2" class="text t2">
+                <p>
+                    When you want to entertain yourself or experience something new we are always here
+                </p>
+            </div>
+            <img id="decor2" src="img/decor_2section.svg" alt="" srcset="">
+        </section>
+
+        <section class="hidden">
+            <div id="text3" class="text t1">
+                <p>
+                    The kindness and love are the keys to achieve our goals
+                </p>
+            </div>
+        </section>        
+        
+        <footer>
+            <div class="grid">
+                <div class="column">
+                    <p class="text t2">Contact us</p>
+                    <div class="text t3">
+                        <a href="mailto:c2olstu3forever@gmail.com">email</a>
+                        <a href="https://x.com/csf_com">x</a>
+                        <a href="https://t.me/CoolSFer_bot">telegram</a>
+                        <a href="https://www.reddit.com/user/Cool-Rest8809">reddit</a>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <p class="text t2">Take action</p>
+                    <div class="text t3">
+                        <a href="">partnership</a>
+                        <a href="">donation</a>
+                        <a href="">start-up</a> 
+                        <a href="">buy a project</a>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <p class="text t2">Other sites</p>
+                    <div class="text t3">
+                        <a href="">ABM</a>
+                        <a href="">chewedmole</a>
+                    </div>
+                </div>
+
+            </div>
+            <img id="csf-sign" src="img/csf_sign.svg" alt="" srcset="">
+
+            <div id="key-words" class="text"></div>
+            <p class="text cc" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+                <a property="dct:title" rel="cc:attributionURL" href="https://chewedmole.github.io/csf/">
+                    Cool.Stuff.Forever</a>
+                     by
+                     <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://chewedmole.github.io">
+                        chewedmole</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a>
+            </p>
+
+        </footer>
+    </div>
+
 </body>
 </html>
